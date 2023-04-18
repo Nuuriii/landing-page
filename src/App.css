@@ -1,0 +1,72 @@
+:root {
+   --gray: #4a5568;
+}
+
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: "Inter", sans-serif;
+}
+
+.navbar {
+   height: 85px;
+   display: flex;
+   padding: 0 10%;
+   align-items: center;
+   justify-content: space-between;
+   box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.1);
+}
+
+.navbar > h1 {
+   font-size: 20px;
+   font-weight: bolder;
+}
+
+.nav-menu {
+   display: flex;
+   gap: 30px;
+}
+
+.hero-container {
+   height: 470px;
+   padding: 0 10%;
+   background-color: transparent;
+   display: flex;
+   align-items: center;
+}
+
+.hero-container .hero-items1 {
+   align-items: center;
+   width: 50%;
+   font-weight: bolder;
+}
+
+.hero-container h1 {
+   font-size: 60px;
+   width: 369px;
+   margin-bottom: 20px;
+   font-weight: bold;
+}
+
+.hero-container > div {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.hero-container p {
+   font-size: 30px;
+   color: var(--gray);
+}
+
+.hero-container > .hero-items2 {
+   width: 50%;
+}
+
+.learn {
+   display: flex;
+   align-items: center;
+}
