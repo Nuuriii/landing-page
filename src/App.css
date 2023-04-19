@@ -67,6 +67,185 @@
 }
 
 .learn {
+   font-weight: normal;
    display: flex;
    align-items: center;
+}
+
+.description {
+   margin: 39px 0;
+   display: flex;
+   justify-content: center;
+   padding: 0 10%;
+}
+
+.description > .description-items1 {
+   width: 54%;
+}
+
+.description-items1 {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding: 0 5%;
+   gap: 25px;
+}
+
+.description-items1 > h3 {
+   font-size: x-large;
+}
+
+.description-items1 .p {
+   color: var(--gray);
+}
+
+.items-content1 {
+   display: flex;
+   justify-content: space-between;
+}
+
+.items-content1 > .read-more {
+   font-weight: bold;
+}
+
+.card {
+   margin: 45px;
+   display: flex;
+   justify-content: center;
+   gap: 25px;
+   padding: 0 10%;
+}
+
+.card .p {
+   color: var(--gray);
+}
+
+.card .read-more {
+   font-weight: bold;
+}
+
+.card-1 {
+   width: 30%;
+   box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.3);
+}
+
+.card-1 > img {
+   width: 100%;
+}
+
+.card-items {
+   padding: 5%;
+   width: 100%;
+   gap: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.card-content {
+   display: flex;
+   justify-content: space-between;
+}
+
+.card-2 {
+   width: 30%;
+   box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.3);
+}
+
+.card-3 {
+   width: 30%;
+   box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.3);
+}
+
+.end-container {
+   height: 500px;
+   margin: 43px 93px 31px 94px;
+   padding: 0 10%;
+   justify-content: center;
+}
+
+.end-container > div {
+   display: flex;
+   justify-content: center;
+   box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.3);
+}
+
+.end-items1 {
+   background-color: #f7fafc;
+   width: 100%;
+   padding: 5% 5%;
+   display: flex;
+   text-align: left;
+   gap: 20px;
+
+   justify-content: center;
+   flex-direction: column;
+}
+
+.end-items1 > h2 {
+   font-size: xx-large;
+}
+
+.end-items1 .p {
+   color: var(--gray);
+}
+
+.end-items1 .read {
+   font-weight: bold;
+}
+
+.content-items {
+   display: flex;
+   justify-content: space-between;
+}
+
+.img > img {
+   height: 100%;
+}
+
+.more-container {
+   padding: 0 10%;
+   margin: 10px 10px;
+}
+
+.more-items > a {
+   width: 13%;
+   display: flex;
+   justify-content: space-between;
+   text-decoration: none;
+   background-color: #6b46c1;
+   padding: 10px;
+   border-radius: 5px;
+   color: white;
+   font-weight: bold;
+}
+
+.anchor > p {
+   width: 100%;
+}
+
+.more-container > .more-items {
+   display: flex;
+   justify-content: end;
+   margin-right: 8%;
+}
+
+hr {
+   margin: 3% 0 1% 0;
+   color: #e8e8e8;
+}
+
+.container-footer > div {
+   width: 100%;
+   padding: 1% 17%;
+}
+
+.footer-contents {
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer-items {
+   display: flex;
+   gap: 20px;
 }
